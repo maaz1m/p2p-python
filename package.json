@@ -1,0 +1,8 @@
+{
+  "name": "python-p2p",
+  "version": "1.0.0",
+  "description": "Simple P2P messaging API written in Python",
+  "main": "peer.py",
+  "author": "mohammadmaaz1997@gmail.com",
+  "license": "MIT"
+}
