@@ -1,6 +1,7 @@
 import threading
 import socket
 import json
+import sys
 
 dbg = 0
 
@@ -14,7 +15,10 @@ class Node:
 	def __init__(self,hname,hport):
 		self.hostname = hname
 		self.port = hport
+		self.succ = ''
+		self.pred = ''
 		self.listener = {}
+
 
 	def createSocket(self):
 		#Function for creating a socket on the node to listen.
