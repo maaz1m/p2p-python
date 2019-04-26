@@ -1,10 +1,19 @@
 # Python P2P API
 A very basic implementation of peer to peer networking in Python
-
-## Usage
 _________________
 
-### Peers:
+### Usage
+
+`node = Node(hostname, hostport)`
+
+`node.on(<tag>, <callback>)`
+
+`node.emit(<tag>,<targethost>, <targetport>, <object>)`
+
+
+
+
+### Example
 
 *peer1.py* 
 
