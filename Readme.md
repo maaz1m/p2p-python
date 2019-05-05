@@ -4,7 +4,7 @@ _________________
 
 ### Usage
 
-`node = Node(hostname, hostport)`
+`node = Node(<hostname>, <hostport>)`
 
 `node.on(<tag>, <callback>)`
 
